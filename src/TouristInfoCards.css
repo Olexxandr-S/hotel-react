@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  background-color: rgb(221, 221, 221);
+  margin: 20px;
+  padding-left: 10px;
+  border: 3px solid black;
+}
+
+.cityName {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.cityPicture {
+  margin-top: 0.6rem;
+}
+
+a {
+  border: 3px solid black;
+  font-size: 120%;
+  padding: 5px;
+  margin: 0 0 0 0;
+  float: right;
+  position: relative;
+  bottom: -3px;
+  left: 3px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: left;
+  padding: 3px;
+  font-size: 110%;
+}
+
+.card-1 {
+  background-color: rgb(164, 117, 207);
+}
+
+.card-2 {
+  background-color: rgb(124, 184, 241);
+}
+
+.card-3 {
+  background-color: rgb(235, 121, 235);
+}
+
+@media (min-width: 992px) {
+  .card {
+    float: left;
+    width: 33.33%;
+    border: none;
+  }
+  img {
+    width: 97%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    float: left;
+    width: 50%;
+    border: none;
+  }
+  .card:last-child {
+    float: top;
+    width: 100%;
+    border: none;
+  }
+  img {
+    width: 97%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .card {
+    float: left;
+    width: 100%;
+    border: none;
+  }
+  img {
+    width: 97%;
+  }
+}
