@@ -1,6 +1,5 @@
-h1 {
-  text-align: center;
-  padding: 20px;
+.cards-container {
+  margin: 1rem 5rem 1rem 5rem;
 }
 
 .box {
@@ -8,6 +7,7 @@ h1 {
   margin: 20px;
   padding-left: 10px;
   border: 3px solid black;
+  border-radius: 0.6rem;
 }
 
 .cityName {
@@ -17,10 +17,14 @@ h1 {
 
 .cityPicture {
   margin-top: 0.6rem;
+  border-radius: 0.5rem;
 }
 
-a {
+.card-1,
+.card-2,
+.card-3 {
   border: 3px solid black;
+  border-bottom-right-radius: 0.6rem;
   font-size: 120%;
   padding: 5px;
   margin: 0 0 0 0;
@@ -28,23 +32,36 @@ a {
   position: relative;
   bottom: -3px;
   left: 3px;
-  color: white;
+  color: rgb(41, 41, 41);
   text-decoration: none;
 }
 
-a:hover {
+.card-1:hover {
   text-decoration: none;
   color: white;
+  background-color: rgb(95, 206, 92);
 }
 
-p {
+.card-2:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(88, 167, 241);
+}
+
+.card-3:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(228, 117, 83);
+}
+
+.info {
   text-align: left;
   padding: 3px;
   font-size: 110%;
 }
 
 .card-1 {
-  background-color: rgb(164, 117, 207);
+  background-color: rgb(133, 204, 131);
 }
 
 .card-2 {
@@ -52,7 +69,7 @@ p {
 }
 
 .card-3 {
-  background-color: rgb(235, 121, 235);
+  background-color: rgb(235, 148, 121);
 }
 
 @media (min-width: 992px) {
